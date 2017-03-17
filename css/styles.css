@@ -1,0 +1,66 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 56px;
+}
+
+body{
+max-width: 1080px;
+margin: 0 auto;
+float: none ;
+font-family: sans-serif;
+color: white;
+background-color: black;
+}
+
+/*this stopped and i couldn't figure out why*/
+img {
+   src: "images\TenishaForde.JPG";
+   alt: "Me";
+   width: 25%;
+   height: 25%;
+}
+
+/* container around the heading for the background*/
+div.container {
+    width: 80%;
+    border: 0px ;
+    background-image: url("../images/galaxybackground.jpg");
+    background-size: fill;
+}
+
+header {
+    padding: 1em;
+    margin-bottom: -50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    background-image: url("../images/galaxybackground.jpg");
+    background-size: fill;
+}
+
+nav {
+    float: center;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav li{
+  padding: 15px;
+  display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+/* to contain the text in the profile*/
+#bio{
+  width: 80%;
+}
